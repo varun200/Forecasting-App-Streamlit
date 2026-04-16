@@ -12,7 +12,7 @@ A multi-model sales forecasting web application built with **Python** and **Stre
 
 ## 📌 Background
 
-Manually generating sales forecasts across multiple products and territories was time-consuming and error-prone. This app was built to automate that process — handling data validation, model selection, parameter tuning, and output generation in a guided, multi-step workflow.
+Manually generating sales forecasts across multiple products and territories was time-consuming and error-prone. This app was built to automate that process, handling data validation, model selection, parameter tuning, and output generation in a guided, multi-step workflow.
 
 ---
 
