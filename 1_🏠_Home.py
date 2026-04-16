@@ -14,7 +14,7 @@ def add_logo():
         """
         <style>
             [data-testid="stSidebarNav"] {
-                background-image: url(https://kmkconsultinginc.com/wp-content/uploads/2020/12/KMK-Logo.png);
+                background-image: none;
                 background-repeat: no-repeat;
                 padding-top: 120px;
                 background-position: 20px 20px;
