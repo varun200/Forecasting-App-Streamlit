@@ -1,7 +1,6 @@
 # 📈 Sales Forecasting Automation App
 
-A multi-model sales forecasting web application built with **Python** and **Streamlit**, designed to automate the end-to-end forecasting workflow for product-territory sales data. Reduces forecast preparation time by ~75% (from 30–60 minutes to under 15 minutes).
-
+A multi-model sales forecasting web application built with **Python** and **Streamlit**, designed to automate the end-to-end forecasting workflow for product-territory sales data.
 ---
 
 ## 🚀 Demo
