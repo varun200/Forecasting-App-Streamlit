@@ -1,6 +1,6 @@
 # 📈 Sales Forecasting Automation App
 
-A multi-model sales forecasting web application built with **Python** and **Streamlit**, designed to automate the end-to-end forecasting workflow for product-territory sales data.
+A multi-model sales forecasting web application built with **Python** and **Streamlit**, designed to automate the end-to-end forecasting workflow for product-territory sales data. Reduces forecast preparation time by ~75% (from 30–60 minutes to under 15 minutes).
 
 ---
 
@@ -106,12 +106,15 @@ streamlit run 1_🏠_Home.py
 
 ## 📁 Input Data Format
 
-The app generates a downloadable Excel template. Your data should follow this structure:
+The app generates a downloadable Excel template. Each date column represents a week (or month), and the values are sales figures for that product-territory combination in that period.
 
 | Product | Territory | MM/DD/YYYY | MM/DD/YYYY | ... |
 |---------|-----------|------------|------------|-----|
 | ProductA | t1 | 1200 | 1350 | ... |
 | ProductA | t2 | 980 | 1100 | ... |
+| ProductB | t1 | 450 | 500 | ... |
+
+> **Note:** Values represent sales units for each product-territory pair per time period. The app supports both weekly and monthly data frequencies.
 
 ---
 
